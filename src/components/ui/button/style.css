@@ -1,0 +1,14 @@
+.button {
+  cursor: pointer;
+  font-family: monospace;
+  background-color: black;
+  color: white;
+  border-radius: 8px;
+  padding: 8px;
+  font-size: 14px;
+}
+
+.button:disabled {
+  opacity: 25%;
+  cursor: not-allowed;
+}

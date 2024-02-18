@@ -1,0 +1,30 @@
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.input {
+  outline: none;
+  padding: 8px;
+  padding-right: 0px;
+  border: none;
+  font-family: monospace;
+  width: 100%;
+}
+
+.input__wrapper {
+  border-radius: 8px;
+  display: flex;
+  overflow: hidden;
+  border: 1px solid lightGray;
+}
+
+.input__suffix {
+  font-size: 12px;
+  font-family: monospace;
+  padding: 8px;
+}

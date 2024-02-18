@@ -1,0 +1,24 @@
+.shipping-cost-checker-form {
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 24px;
+  width: 320px;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+}
+@media (min-width: 481px) and (max-width: 767px) {
+  .shipping-cost-checker-form {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+  .shipping-cost-checker-form {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+}

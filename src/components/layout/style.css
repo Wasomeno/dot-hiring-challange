@@ -1,0 +1,14 @@
+.root {
+  min-height: 100vh;
+  display: flex;
+  flex: 1 1 0%;
+  flex-direction: column;
+}
+
+.layout {
+  padding: 16px;
+  display: flex;
+  flex: 1 1 0%;
+  justify-content: center;
+  align-items: center;
+}
